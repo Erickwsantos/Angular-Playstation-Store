@@ -1,0 +1,16 @@
+.labelCard {
+    position: absolute;
+    bottom: 90px;
+    right: 0;
+    
+    .labelContent{
+        display: flex;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.74);
+        color: white;
+        font-size: 12px;
+        padding: 0 20px;
+        height: 30px;
+        border-radius: 6px;
+    }
+}
