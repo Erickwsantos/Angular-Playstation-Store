@@ -6,7 +6,8 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./card-price.component.scss']
 })
 export class CardPriceComponent implements OnInit {
-
+  
+  @Input() gameName: string = "";
   @Input() gameType: string = '';
   @Input() gamePrice: string = '';
 

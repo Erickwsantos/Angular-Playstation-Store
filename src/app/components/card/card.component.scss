@@ -13,10 +13,10 @@
     .imgCard {
         min-width: 100%;
         min-height: 100%;
+        transition: transform .8s;
     }
 
     .imgCard:hover {
         transform: scale(1.1);
-        transition: 0.8s;
     }
 }
